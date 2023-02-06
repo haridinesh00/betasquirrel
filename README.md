@@ -43,15 +43,15 @@ Read the below links and attend exercises.
 
 ## Linux Commands
 
-- `cd` - Change current directory. Ex: `cd Desktop`, `cd ..`
-- `ls` - List contents of a directory. Ex: `ls -a` lists hidden files as well.
+- `cd` - Change current directory. Ex: `cd Desktop`, `cd ..` Moves back to parent directory
+- `ls` - List contents of a directory. Ex: `ls -al` long list all files.
 - `pwd` - Display current working directory path.
 - `cat` - Display contents of a file. Ex: `cat README.md`
 
 ## Git Commands
 
-1. `git config` - Configure git user. Ex: `git config --global user.name "Afsal-Palliyal"`, `git config  --global user.email "palliyalafsal@gmail.com"`
-2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/Afsal-Palliyal/betasquirrel-tasks.git`, `git clone https://github.com/Afsal-Palliyal/betasquirrel-tasks.git new-folder`
+1. `git config` - Configure git user. Ex: `git config --global user.name "haridinesh00"`, `git config  --global user.email "haridinesh00@gmail.com"`
+2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/haridinesh00/betasquirrel.git`, `git clone https://github.com/haridinesh00/betasquirrel.git new-folder`
 3. `git add` - Add your file changes to git. Ex: `git add .`, `git add README.md`
 4. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
 5. `git push` - Push your local commits to remote repo. Ex: `git push origin main`
