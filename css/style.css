@@ -1,7 +1,26 @@
+body {
+    background-color: coral;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 70px;
+}
+#cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 .card {
     float: left;
     padding: 5px;
     margin: 5px;
+    margin-right: 10px;
     height: 350px;
     overflow-y: auto;
 }
