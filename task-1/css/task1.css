@@ -18,6 +18,7 @@ body{
 .boxes {
     background-color: antiquewhite;
     width: 31%;
+    height: 300px;
     float: left;
     margin-bottom: 15px;
     overflow-y: auto;
