@@ -1,0 +1,11 @@
+.card {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    height: 350px;
+    overflow-y: auto;
+}
+.btn {
+    position: absolute;
+    bottom: 1;
+}
