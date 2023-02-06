@@ -7,7 +7,7 @@
 | ---------------------------------- | ---------------------- |
 | ![task-1](task-1/task1_ques.JPG) | ![out1](task-1/task1.JPG) |
 | ![task-2](task-2/task2_ques.JPG) | ![out2](task-2/task2.JPG) |
-| ![task-4](task-4/task4_ques.JPG) | ![out4](task-4/task4.JPG) | 
+| ![task-4](task-4/task4_ques.JPG) | ![out4](task-4/task4.jpg) | 
 
 ## Task 3
 
