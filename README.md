@@ -5,9 +5,9 @@
 
 | Requirements                       | Output                 |
 | ---------------------------------- | ---------------------- |
-| ![task-1](task-1/task1_ques.jpg) | ![out1](task-1/task1.JPG) |
-| ![task-2](task-2/task2_ques.jpg) | ![out2](task-2/task2.JPG) |
-| ![task-4](task-4/task4_ques.jpg) | ![out4](task-4/task4.jpg) | 
+| ![task-1](task-1/images/task1_ques.jpg) | ![out1](task-1/images/task1.JPG) |
+| ![task-2](task-2/images/task2_ques.jpg) | ![out2](task-2/images/task2.JPG) |
+| ![task-4](task-4/images/task4_ques.jpg) | ![out4](task-4/images/task4.jpg) | 
 
 ## Task 3
 
