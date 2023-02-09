@@ -1,6 +1,6 @@
 # betasqirrel-task
 
-
+[LIVE-VIEW](haridinesh00.github.io/betasquirrel)
 ## Tasks
 
 | Requirements                       | Output                 |
