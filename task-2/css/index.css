@@ -1,71 +1,71 @@
 body {
-    background-color: #333;
-    margin: 0 auto;
+  background-color: #333;
+  margin: 0 auto;
 }
 #navbar {
-    background-color: purple;
-    height: 60px;
-    color: white;
-    display: flex;
-    margin-bottom: 15px;
-    justify-content: space-between;
+  background-color: purple;
+  height: 60px;
+  color: white;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
 }
 div {
-    padding: 10px;
+  padding: 10px;
 }
 .left {
-    float: left;
-    display: flex;
+  float: left;
+  display: flex;
 }
 .right {
-    float: right;
-    margin-top: 13px;
+  float: right;
+  margin-top: 13px;
 }
 nav {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .left img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
 a {
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
 }
 #box1 {
-    background-color: yellowgreen;
-    padding: 10px;
-    height: 70%;
-    width: 31.5%;
-    margin-top: 35px;
-    margin-left: 10px;
-    float: left;
+  background-color: yellowgreen;
+  padding: 10px;
+  height: 70%;
+  width: 31.5%;
+  margin-top: 35px;
+  margin-left: 10px;
+  float: left;
 }
 #box2 {
-    background-color: yellowgreen;
-    padding: 10px;
-    height: 70%;
-    width: 31.5%;
-    margin-top: 35px;
-    margin-right: 10px;
-    float: right;
+  background-color: yellowgreen;
+  padding: 10px;
+  height: 70%;
+  width: 31.5%;
+  margin-top: 35px;
+  margin-right: 10px;
+  float: right;
 }
 #top-container {
-    background-color: lightgrey;
-    font-family: sans-serif;
-    height: 300px;
-    margin: 15px;
+  background-color: lightgrey;
+  font-family: sans-serif;
+  height: 300px;
+  margin: 15px;
 }
 #bottom-container {
-    background-color: lightgrey;
-    border: 18px solid brown;
-    height: 300px;
-    margin: 15px;
+  background-color: lightgrey;
+  border: 18px solid brown;
+  height: 300px;
+  margin: 15px;
 }
 p {
-    font-size: 22px;
+  font-size: 22px;
 }
