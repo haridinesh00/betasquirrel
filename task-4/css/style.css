@@ -31,6 +31,7 @@ body {
   font-family: "Cascadia Mono SemiBold", monospace;
   background-color: #ececec;
   margin: 0 auto;
+  height: 100%;
 }
 #id {
   background-color: #625c5c;
@@ -40,7 +41,7 @@ body {
   float: left;
   flex-direction: column;
   background-color: #625c5c;
-  height: 668px;
+  height: 92.5701570681vh;
   width: 15%;
   margin-bottom: 0 auto;
   margin-top: 1 auto;
@@ -58,19 +59,23 @@ a:hover {
   float: left;
 }
 #main-container h2 {
-  margin-left: 10px;
+  margin-left: 2vw;
+}
+#top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .boxes {
   float: left;
   color: white;
-  margin-left: 10px;
   text-align: center;
-  height: 140px;
-  width: 280px;
+  height: 17vh;
+  width: 16.58vw;
   margin-right: 10px;
-  margin-left: 10px;
   padding-top: 15px;
   font-size: 18px;
+  margin-left: 2vw;
 }
 #box1 {
   background-color: #0ace82;
@@ -97,7 +102,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
+  margin-left: 4.5vw;
 }
 #circle-1 {
   background-color: #a259ff;
@@ -147,7 +152,7 @@ span {
   border-bottom: 5px solid #605c5b;
   height: 150px;
   width: 260px;
-  margin-left: 70px;
+  margin-left: 8vw;
 }
 #bar1 {
   float: left;
