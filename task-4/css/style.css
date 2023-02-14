@@ -59,7 +59,7 @@ a:hover {
   float: left;
 }
 #main-container h2 {
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
 #top-container {
   display: flex;
@@ -75,7 +75,7 @@ a:hover {
   margin-right: 10px;
   padding-top: 15px;
   font-size: 18px;
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
 #box1 {
   background-color: #0ace82;
@@ -102,7 +102,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 4.5vw;
+  margin-left: 5.5vw;
 }
 #circle-1 {
   background-color: #a259ff;
