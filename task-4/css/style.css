@@ -41,7 +41,8 @@ body {
   float: left;
   flex-direction: column;
   background-color: #625c5c;
-  height: 92.5701570681vh;
+  /* height: 92.5701570681vh; */
+  height: calc(100vh - 71px);
   width: 15%;
   margin-bottom: 0 auto;
   margin-top: 1 auto;
@@ -62,9 +63,9 @@ a:hover {
   margin-left: 3vw;
 }
 #top-container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .boxes {
   float: left;
@@ -144,7 +145,7 @@ span {
 }
 #bottom-container {
   margin-left: 20px;
-  margin-top: 250px;
+  margin-top: calc(50vh - 71px);
 }
 #bar-graph {
   float: left;
