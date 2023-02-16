@@ -43,9 +43,10 @@ body {
   background-color: #625c5c;
   /* height: 92.5701570681vh; */
   height: calc(100vh - 71px);
-  width: 15%;
+  width: 15vw;
   margin-bottom: 0 auto;
   margin-top: 1 auto;
+  margin-right: 10px;
 }
 a {
   color: white;
@@ -60,7 +61,7 @@ a:hover {
   float: left;
 }
 #main-container h2 {
-  margin-left: 3vw;
+  /* margin-left: 3vw; */
 }
 #top-container {
   /* display: flex;
@@ -71,12 +72,12 @@ a:hover {
   float: left;
   color: white;
   text-align: center;
-  height: 15vh;
-  width: 17vw;
+  height: 17vh;
+  width: 20.375vw;
   margin-right: 10px;
   padding-top: 5vh;
   font-size: 18px;
-  margin-left: 3vw;
+  /* margin-left: 3vw; */
 }
 #box1 {
   background-color: #0ace82;
@@ -102,19 +103,26 @@ span {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: calc(((17vw - 10.41vw) / 2) + 3vw);
+  justify-content: center; 
+  margin-left: calc(((17vw - 10.41vw) / 2));
+  margin-right: calc(((17vw - 10.41vw) / 2));
 }
 #circle-1 {
   background-color: #a259ff;
-  margin-right: 70px;
+  margin-left: calc(((17vw - 10.41vw) / 2));
+  margin-right: calc(((17vw - 10.41vw) / 2));
+  /* margin-right: 70px; */
 }
 #circle-2 {
   background-color: #1abcfd;
-  margin-right: 70px;
+  margin-left: calc(((17vw - 10.41vw) + 10px));
+  margin-right: calc(((17vw - 10.41vw) / 2));
+  /* margin-right: 70px; */
 }
 #circle-3 {
   background-color: #f04a1b;
+  margin-left: calc(((17vw - 10.41vw) + 10px));
+  margin-right: calc(((17vw - 10.41vw) / 2));
 }
 #inner1 {
   background-color: #0ace82;
@@ -153,7 +161,7 @@ span {
   border-bottom: 5px solid #605c5b;
   height: 150px;
   width: 17vw;
-  margin-left: calc(((17vw - 10.41vw) / 2) + 3vw);
+  margin-left: calc(((17vw - 10.41vw) / 2) + 10px);
 }
 #bar1 {
   float: left;
