@@ -56,6 +56,11 @@ Read the below links and attend exercises.
 4. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
 5. `git push` - Push your local commits to remote repo. Ex: `git push origin main`
 6. `git pull` - Pull updates your current local working branch. Ex: `git pull new-folder`
+7. `git clean` - Removes untracked files from the working directory.
+8. `git status` - Displays the state of the working directory and the staged snapshot.
+9. `git diff` - This command shows the file differences which are not yet staged.
+10. `git show` - This command shows the metadata and content changes of the specified commit.
+11. `git stash` - This command temporarily stores all the modified tracked files.
 
 ## Task 5
 
