@@ -97,46 +97,47 @@ span {
 }
 .circle {
   float: left;
-  height: 10.41vw;
-  width: 10.41vw;
+  height: 12vw;
+  width: 12vw;
   text-align: center;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center; 
-  margin-left: calc(((17vw - 10.41vw) / 2));
-  margin-right: calc(((17vw - 10.41vw) / 2));
+  margin-left: calc(((17vw - 12vw) / 2));
+  margin-right: calc(((17vw - 12vw) / 2));
 }
 #circle-1 {
   background-color: #a259ff;
-  margin-left: calc(((17vw - 10.41vw) / 2));
-  margin-right: calc(((17vw - 10.41vw) / 2));
+  margin-left: calc(((17vw - 12vw) / 2) + 10px);
+  margin-right: calc(((17vw - 12vw) / 2));
   /* margin-right: 70px; */
 }
 #circle-2 {
   background-color: #1abcfd;
-  margin-left: calc(((17vw - 10.41vw) + 10px));
-  margin-right: calc(((17vw - 10.41vw) / 2));
+  margin-left: calc(((17vw - 12vw) + 40px));
+  margin-right: calc(((17vw - 12vw) / 2));
   /* margin-right: 70px; */
 }
 #circle-3 {
   background-color: #f04a1b;
-  margin-left: calc(((17vw - 10.41vw) + 10px));
-  margin-right: calc(((17vw - 10.41vw) / 2));
+  margin-left: calc(((17vw - 12vw) + 10px));
+  margin-right: calc(((17vw - 12vw) / 2));
 }
 #inner1 {
   background-color: #0ace82;
-  width: 6.77vw;
-  height: 6.77vw;
+  width: 8vw;
+  height: 8vw;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 #inner2 {
   background-color: #f5f5f5;
-  width: 9.37vw;
-  height: 9.37vw;
+  width: 11vw;
+  height: 11vw;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -144,8 +145,8 @@ span {
 }
 #inner3 {
   background-color: #ff7261;
-  width: 8.80vw;
-  height: 8.80vw;
+  width: 10.8vw;
+  height: 10.8vw;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -157,57 +158,57 @@ span {
 }
 #bar-graph {
   float: left;
-  margin-top: 30px;
+  margin-top: 10px;
   border-bottom: 5px solid #605c5b;
-  height: 150px;
+  height: 200px;
   width: 17vw;
-  margin-left: calc(((17vw - 10.41vw) / 2) + 10px);
+  margin-left: calc(((17vw - 12vw) / 2) + 10px);
 }
 #bar1 {
   float: left;
   height: 100%;
   width: 3.5%;
-  margin-right: 15px;
+  margin-right: 25px;
   background-color: #0ace82;
 }
 #bar2 {
   float: left;
-  height: 60%;
+  height: 55%;
   width: 3.5%;
-  margin-right: 15px;
+  margin-right: 25px;
   background-color: #f04a1b;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 #bar3 {
   float: left;
-  height: 75%;
+  height: 70%;
   width: 3.5%;
-  margin-right: 15px;
-  margin-top: 37.7px;
+  margin-right: 25px;
+  margin-top: 60px;
   background-color: #a259ff;
 }
 #bar4 {
   float: left;
-  height: 35%;
+  height: 30%;
   width: 3.5%;
-  margin-right: 15px;
-  margin-top: 97px;
+  margin-right: 25px;
+  margin-top: 140px;
   background-color: #1abcfd;
 }
 #bar5 {
   float: left;
-  height: 90%;
+  height: 80%;
   width: 3.5%;
-  margin-right: 15px;
-  margin-top: 20px;
+  margin-right: 25px;
+  margin-top: 40px;
   background-color: #625c5c;
 }
 #bar6 {
   float: left;
-  height: 20%;
+  height: 15%;
   width: 3.5%;
-  margin-right: 15px;
-  margin-top: 120px;
+  margin-right: 25px;
+  margin-top: 170px;
   background-color: #ff7261;
 }
 #inner31 {
