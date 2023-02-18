@@ -19,7 +19,7 @@ div {
 }
 .right {
   float: right;
-  margin-top: 13px;
+  margin-top: 10px;
 }
 nav {
   margin-right: 20px;
@@ -31,10 +31,10 @@ nav {
 }
 a {
   color: #fff;
-  font-size: 20px;
   text-decoration: none;
   padding: 10px;
   margin: 10px;
+  font-size: 25px;
 }
 #box1 {
   background-color: yellowgreen;
@@ -64,7 +64,7 @@ a {
 }
 #bottom-container {
   background-color: #B74242;
-  height: 300px;
+  height: 35vh;
   margin: 15px;
 }
 #bottom-inside {
