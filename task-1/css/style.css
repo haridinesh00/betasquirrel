@@ -62,7 +62,7 @@ p {
 @media screen and (max-width: 768px) {
   #navbar {
     width: 100vw;
-    height: 5.23vh;
+    height: 6vh;
   }
   #main-container {
     width: 100vw;
