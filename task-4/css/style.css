@@ -103,7 +103,7 @@ span {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin-left: calc(((17vw - 12vw) / 2));
   margin-right: calc(((17vw - 12vw) / 2));
 }

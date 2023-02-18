@@ -8,7 +8,7 @@ body {
   margin-bottom: 15px;
 }
 #main-container {
-  background-color: #D1D8E8;
+  background-color: #d1d8e8;
   height: 35vh;
   margin-bottom: 25px;
   margin-left: 5px;
@@ -16,7 +16,7 @@ body {
   overflow-y: auto;
 }
 .boxes {
-  background-color: #D1D8E8;
+  background-color: #d1d8e8;
   width: 31.15%;
   height: 35vh;
   float: left;
@@ -120,7 +120,8 @@ p {
   .m-l {
     margin-left: 0;
   }
-  .first, .second {
+  .first,
+  .second {
     width: 48.5vw;
     overflow: auto;
   }
