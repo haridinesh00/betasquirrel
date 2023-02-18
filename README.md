@@ -82,3 +82,8 @@ Read the below links and attend exercises.
 - [HTML Table Colspan & Rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
+- [CSS Table](https://www.w3schools.com/css/css_table.asp)
+- [CSS Table Size](https://www.w3schools.com/css/css_table_size.asp)
+- [CSS Table Align](https://www.w3schools.com/css/css_table_align.asp)
+- [CSS Table Style](https://www.w3schools.com/css/css_table_style.asp)
+- [CSS Table Responsive](https://www.w3schools.com/css/css_table_responsive.asp)
