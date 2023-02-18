@@ -5,7 +5,9 @@
 ## Links
 
 [Linked-In](https://www.linkedin.com/in/hari-d-816251124/)
+
 [Stackoverflow](https://stackoverflow.com/users/12946676/haridinesh00)
+
 [Github](https://github.com/haridinesh00)
 ## Tasks
 
