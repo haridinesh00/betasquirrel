@@ -35,19 +35,20 @@ div {
 #main-container h1 {
   text-decoration: underline;
 }
-.left {
+.left img {
+  height: 40px;
+  margin-right: 5px;
   float: left;
+}
+.left h2 {
+  float: left;
+  color: aliceblue;
+  margin-top: 5px;
 }
 .right {
   float: right;
   font-size: 25px;
-}
-.left img {
-  height: 40px;
-}
-.left h2 {
-  display: inline;
-  color: aliceblue;
+  margin-top: -15px;
 }
 a {
   text-decoration: none;
@@ -110,15 +111,15 @@ p {
   div {
     padding: 0.26vw;
   }
-  .right {
-    margin-top: 1.5vh;
-    font-size: 25px;
-  }
-  .left {
+  .left img{
     margin-top: 1vh;
   }
   .left h2 {
     margin-top: 1.5vh;
+  }
+  .right {
+    margin-top: 1vh;
+    font-size: 25px;
   }
   .m-r {
     margin-right: 0;
