@@ -86,6 +86,7 @@ p {
   #top-container {
     margin-bottom: 10px;
     overflow: scroll;
+    height: calc(50vh);
   }
   #bottom-container {
     margin-top: 10px;

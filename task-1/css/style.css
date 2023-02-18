@@ -111,8 +111,14 @@ p {
     padding: 0.26vw;
   }
   .right {
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     font-size: 25px;
+  }
+  .left {
+    margin-top: 1vh;
+  }
+  .left h2 {
+    margin-top: 1.5vh;
   }
   .m-r {
     margin-right: 0;
