@@ -1,11 +1,17 @@
 # betasqirrel-task
 
 [LIVE-VIEW](https://haridinesh00.github.io/betasquirrel)
+
+## Links
+
+[Linked-In](https://www.linkedin.com/in/hari-d-816251124/)
+[Stackoverflow](https://stackoverflow.com/users/12946676/haridinesh00)
+[Github](https://github.com/haridinesh00)
 ## Tasks
 
 | Requirements                            | Output                           |
 | --------------------------------------- | -------------------------------- |
-| ![task-1](task-1/images/task1_ques.jpg) | ![out1](task-1/images/task1.jpg) |
+| ![task-1](task-1/images/task1_ques.jpg) | ![out1](task-1/images/task-1.jpg) |
 | ![task-2](task-2/images/task2_ques.jpg) | ![out2](task-2/images/task2.jpg) |
 | ![task-4](task-4/images/task4_ques.jpg) | ![out4](task-4/images/task4.jpg) | 
 

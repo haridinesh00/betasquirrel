@@ -9,7 +9,7 @@ body {
 }
 #main-container {
   background-color: #D1D8E8;
-  height: 300px;
+  height: 35vh;
   margin-bottom: 25px;
   margin-left: 5px;
   margin-right: 5px;
@@ -18,7 +18,7 @@ body {
 .boxes {
   background-color: #D1D8E8;
   width: 31.15%;
-  height: 300px;
+  height: 35vh;
   float: left;
   margin-bottom: 15px;
   overflow-y: auto;
@@ -27,7 +27,7 @@ body {
   margin-right: 25px;
 }
 .m-l {
-  margin-left: 5px;
+  margin-left: 0.26vw;
 }
 div {
   padding: 10px;
@@ -40,6 +40,7 @@ div {
 }
 .right {
   float: right;
+  font-size: 25px;
 }
 .left img {
   height: 40px;
@@ -53,9 +54,13 @@ a {
   color: aliceblue;
   padding: 10px;
 }
+p {
+  font-size: 20px;
+}
 @media screen and (max-width: 768px) {
   #navbar {
     width: 100vw;
+    height: 5.23vh;
   }
   #main-container {
     width: 100vw;
@@ -95,5 +100,38 @@ a {
   }
   p {
     overflow-x: scroll;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1754px) {
+  #navbar {
+    height: 5.23vh;
+  }
+  div {
+    padding: 0.26vw;
+  }
+  .right {
+    margin-top: 1vh;
+    font-size: 25px;
+  }
+  .m-r {
+    margin-right: 0;
+  }
+  .m-l {
+    margin-left: 0;
+  }
+  .first, .second {
+    width: 48.5vw;
+    overflow: auto;
+  }
+  .first {
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+  }
+  .second {
+    margin-right: 0;
+  }
+  .third {
+    width: 98.7vw;
+    margin-left: 0.5vw;
   }
 }
