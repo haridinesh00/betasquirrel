@@ -69,6 +69,7 @@ Read the below links and attend exercises.
 9. `git diff` - This command shows the file differences which are not yet staged.
 10. `git show` - This command shows the metadata and content changes of the specified commit.
 11. `git stash` - This command temporarily stores all the modified tracked files.
+12. `git reset` - This command unstages the file, but it preserves the file contents.
 
 ## Task 5
 
