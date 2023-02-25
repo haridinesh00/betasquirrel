@@ -169,7 +169,7 @@ input[name="hostel"] {
   width: 150px;
   border-radius: 30px;
   margin-right: 30px;
-  /* border: 0; */
+  border: 0;
   font-weight: bold;
 }
 #clr {
@@ -195,6 +195,10 @@ textarea {
 }
 #mob-only {
   display: none;
+}
+input[type="text"], input[type="tel"], select {
+  border-radius: 0;
+  border: 1px solid gray;
 }
 @media screen and (max-width:942px) {
   .main-content {
@@ -273,6 +277,8 @@ textarea {
   }
   input[type="text"], input[type="tel"], select {
     width: 87vw;
+    border-radius: 0;
+    border: 1px solid gray;
   }
   textarea {
     width: 87vw;
@@ -294,6 +300,7 @@ textarea {
     right: -10vw;
     bottom: 5vw;
   }
+  
 }
 @media screen and (max-width:425px) {
   .buttons button {
@@ -304,7 +311,7 @@ textarea {
     border-radius: 30px;
     margin-right: 30px;
     margin-top: 10px;
-    /* border: 0; */
+    border: 0;
     font-weight: bold;
   }
 }

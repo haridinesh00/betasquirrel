@@ -17,6 +17,7 @@ body h1 {
   justify-content: center;
 }
 .card {
+  position: relative;
   float: left;
   padding: 5px;
   margin: 5px;
@@ -26,17 +27,19 @@ body h1 {
 }
 .btn {
   position: absolute;
-  bottom: 1;
+  bottom: 1vw;
+  left: 1vw;
 }
 @media only screen and (max-width: 768px) {
   #cards {
-    width: 100%;
+    width: 100vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   .card {
     float: none;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc((100vw - 286px)/2);
   }
 }
