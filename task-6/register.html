@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="left">
+        <img src="images/logo.png" alt="logo" />
+        <h2>One School</h2>
+      </div>
+      <div class="right">
+        <img
+          src="images/profile.jpg"
+          alt="profile"
+          style="border-radius: 50%"
+        />
+      </div>
+    </div>
+    <div class="main">
+      <div class="sidebar">
+        <nav>
+          <a href="#">STUDENTS</a>
+          <a href="#">STAFF</a>
+          <a href="#">EXAMS</a>
+        </nav>
+      </div>
+      <div class="main-content">
+        <form action="">
+          <h4 class="main-heading">STUDENT REGISTRATION</h4>
+          <div class="form-main">
+            <div class="left-main">
+              <label for="First Name">First name * :</label>
+              <input
+                type="text"
+                name=""
+                id="fn"
+                placeholder="Enter your first name"
+              />
+              <label for="Last Name" class="mob-only">Last name * :</label>
+              <input type="text" class="mob-only" placeholder="Enter your last name" />
+              <label for="">Mobile * :</label>
+              <input type="tel" placeholder="Enter your mobile number" />
+              <label for="" class="mob-only">Email * :</label>
+              <input type="text" class="mob-only" placeholder="Enter your email" />
+              <label for="">Branch * :</label>
+              <select name="" id="">
+                <option value="" disabled selected hidden>
+                  Select branch you like
+                </option>
+                <option value="">Computer Science Engineering</option>
+                <option value="">Civil Engineering</option>
+                <option value="">Mechanical Engineering</option>
+              </select>
+              <label for="Hostel Facility" class="mob-only">Do You Need Hostel Facility:</label>
+              <div class="hostel-radio" id="mob-only">
+                <div class="left-radio">
+                  <input type="radio" name="hostel" id="yes" />
+                  <label for="yes">Yes</label>
+                </div>
+                <div class="right-radio">
+                  <input type="radio" name="hostel" id="no" />
+                  <label for="no">No</label>
+                </div>
+              </div>
+              <label for="additional sub" id="ad_label"
+                  >Choose Additional Subjects :
+              </label>
+              <div class="check">
+                <input type="checkbox" name="ad_sub" id="ch1" />
+                <label for="">Cyber Security</label>
+                <input type="checkbox" name="ad_sub" id="" />
+                <label for="">Artificial Intelligence</label>
+                <input type="checkbox" name="ad_sub" id="" />
+                <label for="">Blockchain</label>
+                <input type="checkbox" name="ad_sub" id="" />
+                <label for="">IoT</label>
+                <input type="checkbox" name="ad_sub" id="" />
+                <label for="">Robotics</label>
+            </div>
+            <div class="address">
+              <label for="">Permanent Address * :</label>
+              <textarea name="" id="" cols="80" rows="10" placeholder="Enter your full address"></textarea>
+            </div>
+            </div>
+            <div class="right-main">
+              <label for="Last Name">Last name * :</label>
+              <input type="text" placeholder="Enter your last name" />
+              <label for="">Email * :</label>
+              <input type="text" placeholder="Enter your email" />
+              <label for="Hostel Facility">Do You Need Hostel Facility:</label>
+              <div class="hostel-radio">
+                <div class="left-radio">
+                  <input type="radio" name="hostel" id="yes" />
+                  <label for="yes">Yes</label>
+                </div>
+                <div class="right-radio">
+                  <input type="radio" name="hostel" id="no" />
+                  <label for="no">No</label>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button type="reset" id="clr">CLEAR</button>
+              <button type="submit" id="sub">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
