@@ -1,6 +1,7 @@
 #main {
     margin-top: 5vh;
-    width: 40vw;
+    width: 30vw;
+    height: 45vh;
     background-color: purple;
     padding: 5px;
     border-radius: 10px;
@@ -27,11 +28,6 @@
     height: 5vh;
     border: none;
 }
-/* .col-2 {
-    text-align: center;
-    background-color: brown;
-    height: 12vh;
-} */
 .col-2 > button {
     text-align: center;
     vertical-align: middle;

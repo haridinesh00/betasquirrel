@@ -33,7 +33,7 @@
                         <button onclick="document.getElementById('inp_field').value += '9'" class="btn btn-primary">9</button>
                     </div>
                     <div class="col-3">
-                        <button onclick="document.getElementById('inp_field').value += '+'" class="btn btn-primary">+</button>
+                        <button onclick="plus()" class="btn btn-primary">+</button>
                     </div>
                 </div>
                 <div class="row">
@@ -47,12 +47,12 @@
                         <button onclick="document.getElementById('inp_field').value += '6'" class="btn btn-primary">6</button>
                     </div>
                     <div class="col-3">
-                        <button onclick="document.getElementById('inp_field').value += '-'" class="btn btn-primary">-</button>
+                        <button onclick="minus()" class="btn btn-primary">-</button>
                     </div>
                 </div>
             </div>
             <div class="col-2">
-                <button onclick="CheckandPrint()" class="btn btn-primary">=</button>
+                <button onclick="clear_screen()" class="btn btn-primary">C</button>
             </div>
         </div>
         <div class="row align-items-center" id="under">
@@ -68,7 +68,7 @@
                         <button onclick="document.getElementById('inp_field').value += '3'" class="btn btn-primary">3</button>
                     </div>
                     <div class="col-3">
-                        <button onclick="document.getElementById('inp_field').value += '*'" class="btn btn-primary">x</button>
+                        <button onclick="multiply()" class="btn btn-primary">x</button>
                     </div>
                 </div>
                 <div class="row">
@@ -82,15 +82,20 @@
                         <button onclick="document.getElementById('inp_field').value += '%'" class="btn btn-primary">%</button>
                     </div>
                     <div class="col-3">
-                        <button onclick="document.getElementById('inp_field').value += '/'" class="btn btn-primary">&#247;</button>
+                        <button onclick="divide()" class="btn btn-primary">&#247;</button>
                     </div>
                 </div>
             </div>
             <div class="col-2">
-                <button onclick="document.getElementById('inp_field').value = ''" class="btn btn-primary">C</button>
+                <button onclick="solution()" class="btn btn-primary">=</button>
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
