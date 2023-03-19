@@ -37,14 +37,19 @@ function lastOp(y){
     else if(last_opr == '/'){
         answer = answer / Number(y.value);
     }
+    else if(last_opr == '%'){
+        answer = answer % Number(y.value);
+    }
     return answer;
 }
 function plus(){
     temp = getElementValue();
-    answer = Number(temp.value);
-    var z = lastOp(temp);
-    last_opr = '+';
-    temp.value = '';
+    if(temp.value != ''){
+        answer = Number(temp.value);
+        var z = lastOp(temp);
+        last_opr = '+';
+        temp.value = '';
+    }
 }
 function minus(){
     temp = getElementValue();
@@ -79,6 +84,18 @@ function multiply(){
         answer = Number(temp.value);
         var z = lastOp(temp);
         last_opr = '*';
+        temp.value = '';
+    }
+}
+function modulus(){
+    temp = getElementValue();
+    if(temp.value == ''){
+        last_opr = '';
+    }
+    else {
+        answer = Number(temp.value);
+        var z = lastOp(temp);
+        last_opr = '%';
         temp.value = '';
     }
 }

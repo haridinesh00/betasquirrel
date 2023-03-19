@@ -67,6 +67,7 @@ h1 {
 @media screen and (max-width:411px) {
     #main {
         margin-top: 5vh;
+        height: 50vh;
         width: 90vw;
         background-color: purple;
         padding: 5px;
