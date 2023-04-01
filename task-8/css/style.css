@@ -83,7 +83,7 @@ h1 {
         width: 10vw;
     }
 }
-@media screen and (max-height:750px) {
+@media screen and (max-height:680px) {
     #main {
         margin-top: 5vh;
         height: 60vh;
