@@ -83,3 +83,22 @@ h1 {
         width: 10vw;
     }
 }
+@media screen and (max-height:750px) {
+    #main {
+        margin-top: 5vh;
+        height: 60vh;
+        width: 90vw;
+        background-color: purple;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    h1 {
+        margin-top: 10vh;
+    }
+    #inp_field{
+        margin-left: 3vw;
+    }
+    button {
+        width: 10vw;
+    }
+}
