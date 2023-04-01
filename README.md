@@ -10,6 +10,8 @@
 
 [Github](https://github.com/haridinesh00)
 
+[Figma](https://www.figma.com/proto/c5rpHct5VXox0gVnyVzdgr/Untitled?node-id=115-27&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=115%3A27&show-proto-sidebar=1)
+
 ## Tasks
 
 | Requirements                            | Output                            |
