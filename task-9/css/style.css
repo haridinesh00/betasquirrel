@@ -1,0 +1,137 @@
+.left {
+  display: flex;
+}
+.left img {
+  width: 40px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.left h2 {
+  float: left;
+  color: grey;
+}
+.right {
+  float: right;
+  margin-top: 13px;
+}
+.right img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+#navbar {
+  background-color: white;
+  height: 80px;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  /* margin-bottom: 1px; */
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+}
+.main {
+  display: flex;
+}
+.sidebar {
+  float: left;
+  height: calc(100vh - 81px);
+  width: 13vw;
+  background-color: white;
+  border-right: 2px solid lightgray;
+}
+.sidebar a {
+  color: gray;
+  display: block;
+  margin-left: 3.5vw;
+  margin-top: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.heading {
+  float: right;
+}
+.heading h3 {
+  display: flex;
+  float: right;
+}
+.main-content {
+  position: relative;
+  width: calc(100vw - 13vw);
+}
+.left-main {
+  position: absolute;
+  left: 2vw;
+  display: block;
+}
+.left-main h3 {
+  color: gray;
+  text-decoration: underline;
+}
+.right-main {
+  position: absolute;
+  right: 2vw;
+  top: 2vh;
+  background-color: #059862; 
+  /* height: 4vh;
+  width: 7vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-main a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 1vh 2vh 1vh 2vh;
+  margin: auto;
+}
+.table-div {
+  margin-top: 65px;
+}
+table {
+  width: 82.2vw;
+  margin-top: 7vh;
+  margin-left: 2vw;
+}
+table, th, td {
+  border: 1px solid lightgray;
+  color: gray;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+th, td {
+  width: 3vw;
+  height: 6vh;
+  text-align: left;
+  padding-left: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .main-content {
+    position: relative;
+    width: 98vw;
+  }
+  .sidebar {
+    display: none;
+  }
+  table {
+    width: 95%;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  } 
+}
+@media screen and (max-width: 578px) {
+  .table-div {
+    max-width: 93vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    overflow: scroll;
+  }
+  table {
+    width: 95%;
+    padding: 10px;
+  }
+}
