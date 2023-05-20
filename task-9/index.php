@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task-6</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -32,7 +33,7 @@
       </div>
       <div class="main-content">
         <div class="left-main">
-          <h3>STUDENTS</h3>
+          <h2>STUDENTS</h2>
         </div>
         <div class="right-main">
           <a href="register.html"><i class="bi bi-plus"></i>Add Student</a>
@@ -45,54 +46,18 @@
               <th>BRANCH</th>
               <th>MOBILE</th>
               <th>EMAIL</th>
-              <th>SUBJECT</th>
-              <th>HOSTEL</th>
+              <th>ACTIONS</th>
             </tr>
-            <tr>
-              <td>0001</td>
-              <td>ANSHAD VATTAPOYIL</td>
-              <td>TEXT</td>
-              <td>TEXT</td>
-              <td>TEXT</td>
-              <td>TEXT</td>
-              <td>TEXT</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+            <?php
+              require 'db.php';
+              $sql = "SELECT * FROM student";
+              $result = $conn->query($sql);
+              if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                  echo "<tr><td>".$row["id"]."</td><td>".$row["firstname"]." ".$row["lastname"]."</td><td>".$row["branch"]."</td><td>".$row["mobile"]."</td><td>".$row["email"]."</td><td><i class='fa-solid fa-minus'></i></td></tr>";
+                }
+              }
+            ?>
           </table>
         </div>
       </div>

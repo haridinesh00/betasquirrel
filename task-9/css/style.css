@@ -29,7 +29,7 @@
   margin: 0 auto;
   /* margin-bottom: 1px; */
   justify-content: space-between;
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid gray;
 }
 .main {
   display: flex;
@@ -39,7 +39,7 @@
   height: calc(100vh - 81px);
   width: 13vw;
   background-color: white;
-  border-right: 2px solid lightgray;
+  border-right: 2px solid gray;
 }
 .sidebar a {
   color: gray;
@@ -65,7 +65,7 @@
   left: 2vw;
   display: block;
 }
-.left-main h3 {
+.left-main h2 {
   color: gray;
   text-decoration: underline;
 }
@@ -96,8 +96,8 @@ table {
   margin-left: 2vw;
 }
 table, th, td {
-  border: 1px solid lightgray;
-  color: gray;
+  border: 2px solid gray;
+  color: black;
   font-weight: bold;
   border-collapse: collapse;
 }
@@ -107,6 +107,7 @@ th, td {
   text-align: left;
   padding-left: 10px;
 }
+
 @media screen and (max-width: 1000px) {
   .main-content {
     position: relative;
