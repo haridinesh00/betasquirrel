@@ -8,12 +8,30 @@
   <title>Register</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/register.css" />
 </head>
 
 <body>
   <?php
   require 'db.php';
+  $isError = false;
+  $firstname = '';
+  $lastname = '';
+  $mobile = '';
+  $email = '';
+  $branch = '';
+  $address = '';
+  $add_subjects = [];
+  $hostel = 0;
+
+  // Variables for storing error
+  $firstNameError = '';
+  $lastNameError = '';
+  $mobileError = '';
+  $emailError = '';
+  $branchError = '';
+  $addressError = '';
   if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // print_r($_POST);
     // collect value of input field
@@ -54,9 +72,9 @@ VALUES ('" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . $mobil
   </div>
   <div class="sidebar">
     <nav>
-      <a href="#">STUDENTS</a>
-      <a href="#">STAFF</a>
-      <a href="#">EXAMS</a>
+    <a href="#"><i class="bi bi-house"></i> STUDENTS</a>
+    <a href="#"><i class="bi bi-person"></i> STAFF</a>
+    <a href="#"><i class="bi bi-book"></i> EXAMS</a>
     </nav>
   </div>
   <div class="container main">

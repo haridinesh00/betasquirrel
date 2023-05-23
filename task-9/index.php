@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task-6</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -36,7 +37,7 @@
           <h2>STUDENTS</h2>
         </div>
         <div class="right-main">
-          <a href="register.html"><i class="bi bi-plus"></i>Add Student</a>
+          <a href="register.php"><i class="bi bi-plus"></i>Add Student</a>
         </div>
         <div class="table-div">
           <table>
@@ -53,11 +54,35 @@
               $sql = "SELECT * FROM student";
               $result = $conn->query($sql);
               if ($result->num_rows > 0) {
-                while($row = $result->fetch_assoc()) {
-                  echo "<tr><td>".$row["id"]."</td><td>".$row["firstname"]." ".$row["lastname"]."</td><td>".$row["branch"]."</td><td>".$row["mobile"]."</td><td>".$row["email"]."</td><td><i class='fa-solid fa-minus'></i></td></tr>";
-                }
+                while ($row = $result->fetch_assoc()) { ?>
+                  <tr>
+                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['firstname'] . ' ' . $row['lastname']; ?></td>
+                    <td><?php echo $row['branch']; ?></td>
+                    <td><?php echo $row['mobile']; ?></td>
+                    <td><?php echo $row['email']; ?></td>
+                    <td>
+                      <a class="button" href="edit.php?id=<?php echo $row['id'];  ?>">
+                        <i class="fa-solid fa-pencil"></i>
+                      </a>
+                      <a class="button" href="view.php?id=<?php echo $row['id'];  ?>">
+                        <i class="fa-solid fa-eye"></i>
+                      </a>
+                      <a class="button" href="delete.php?id=<?php echo $row['id'];  ?>" onclick="return confirm('Are you sure to delete?');">
+                        <i class="fa-solid fa-trash"></i>
+                      </a>
+                    </td>
+                  </tr>
+                <?php }
+              } else { ?>
+                <tr>
+                  <td colspan="6">No Records Found!</td>
+                </tr>
+              <?php
               }
-            ?>
+    
+              $conn->close();
+              ?>
           </table>
         </div>
       </div>
